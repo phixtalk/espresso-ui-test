@@ -20,7 +20,6 @@ class SecondaryActivityTest{
     fun test_isActivityInView() {
 
         onView(withId(R.id.secondary)).check(matches(isDisplayed()))
-
         onView(withId(R.id.button_back)).check(matches(isDisplayed()))
     }
 
@@ -28,7 +27,6 @@ class SecondaryActivityTest{
     fun test_visibility_title_backButton() {
 
         onView(withId(R.id.activity_secondary_title)).check(matches(isDisplayed()))
-
         onView(withId(R.id.button_back)).check(matches(isDisplayed()))
     }
 
