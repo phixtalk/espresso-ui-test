@@ -12,6 +12,8 @@ import org.junit.runner.RunWith
 @RunWith(AndroidJUnit4ClassRunner::class)
 class SecondaryActivityTest{
 
+    //this makes launching an activity in isolation globally, rather than calling it
+    //in every test function
     @get: Rule
     val activityRule = ActivityScenarioRule(SecondaryActivity::class.java)
 
