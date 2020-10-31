@@ -13,3 +13,7 @@ Things to test for.
 4. Using Test Suites
 5. Firebase Test Labs
 6. Testing Fragments
+7. Testing Fragments Navigation (Old way with support fragment manager)
+8. Gallery Intents and startActivityForResult - using the espresso-intent dependency
+9. Testing Camera Intents, Custom Drawable Matcher
+10. Testing Dialogs
