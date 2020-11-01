@@ -16,4 +16,5 @@ Things to test for.
 7. Testing Fragments Navigation (Old way with support fragment manager)
 8. Gallery Intents and startActivityForResult - using the espresso-intent dependency
 9. Testing Camera Intents, Custom Drawable Matcher
-10. Testing Dialogs
+10. Testing Dialogs and Toasts Message
+11.

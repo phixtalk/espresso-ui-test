@@ -14,13 +14,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".dialog.DialogCaptureActivity"></activity>
-        <activity android:name=".gallery.CameraIntentActivity">
+        <activity android:name=".dialog.DialogCaptureActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".gallery.CameraIntentActivity">
         </activity>
         <activity android:name=".gallery.GalleryActivity"></activity>
         <activity android:name=".movie.MovieActivity" />
